@@ -49,7 +49,7 @@ class _HomeState extends State<Home> {
               children: [
                 Hero(
                   tag: 'courseImage',
-                  child: Image.network(courseImage,height: 20,width: 20,),
+                  child: Image.network(courseImage,height: 50,width: 50,),
                 ),
                 Padding(
                   padding: const EdgeInsets.all(16.0),
