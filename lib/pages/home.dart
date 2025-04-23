@@ -13,7 +13,7 @@ class Home extends StatefulWidget {
 }
 
 class _HomeState extends State<Home> {
-  final String courseImage = 'https://via.placeholder.com/300';
+  final String courseImage = '/assets/uni.png';
   final String courseName = 'Introduction to Flutter';
   @override
   Widget build(BuildContext context) {
