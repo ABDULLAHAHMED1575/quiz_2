@@ -34,9 +34,6 @@ class _MainPageState extends State<MainPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar:AppBar(
-        title: Title(color: Colors.red, child: Text("Quiz 3"))
-      ),
       body: _pages[_selectedIndex],
       bottomNavigationBar: BottomNavigationBar(
         currentIndex: _selectedIndex,

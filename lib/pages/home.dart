@@ -18,7 +18,8 @@ class _HomeState extends State<Home> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text('University Portal')),
+      appBar: AppBar(
+        title: Title(color: Colors.red, child: Text('University Portal')),),
       drawer: Drawer(
         child: ListView(
           children: const [
